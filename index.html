@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Thorat | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Suraj Thorat, a passionate developer creating modern web experiences.">
+
+    <!-- Google Fonts: Sora (Variable) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Magnetic Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo magnetic-link">ST.</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link magnetic-link">About</a></li>
+                <li><a href="#projects" class="nav-link magnetic-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link magnetic-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mobile Thumb-Friendly Navigation -->
+    <nav class="mobile-nav">
+        <a href="#about" class="mobile-nav-link magnetic-link"><i class="fa-solid fa-user"></i><span>About</span></a>
+        <a href="#projects" class="mobile-nav-link magnetic-link"><i class="fa-solid fa-briefcase"></i><span>Projects</span></a>
+        <a href="#contact" class="mobile-nav-link magnetic-link"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
+    </nav>
+
+    <main>
+        <!-- ============== HERO SECTION ============== -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            I Build <span class="typing-text"></span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            A developer passionate about creating fast, beautiful, and intuitive digital experiences.
+                            <span class="availability">
+                                <span class="status-dot"></span>
+                                Available for new opportunities.
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary magnetic-link">View Work</a>
+                        <a href="/assets/resume.pdf" download class="btn btn-secondary magnetic-link">Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="glass-card tech-stack-summary">
+                    <h3 class="glass-card-title">My Tech Stack</h3>
+                    <div class="tech-icons">
+                        <i class="fa-brands fa-html5" title="HTML"></i>
+                        <i class="fa-brands fa-css3-alt" title="CSS"></i>
+                        <i class="fa-brands fa-js" title="JavaScript"></i>
+                        <i class="fa-brands fa-python" title="Python"></i>
+                        <i class="fa-brands fa-php" title="PHP"></i>
+                        <i class="fa-solid fa-database" title="SQL"></i>
+                        <i class="fa-brands fa-java" title="Java"></i>
+                        <i class="fa-brands fa-aws" title="AWS"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organic Shape Divider -->
+        <div class="section-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- ============== ABOUT SECTION (BENTO GRID) ============== -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="bento-grid">
+                    <div class="bento-item item-1">
+                        <h3>Professional Journey</h3>
+                        <h4>Hello, I'm Suraj Thorat</h4><br>
+                        <p>I am a passionate Web Developer based in Pune. My journey into web development began with curiosity and evolved into a focused pursuit of building clean, reliable, and user-centric digital experiences. As a BCA student and web developer, I work at the intersection of design and technology, transforming ideas into responsive and functional websites through modern development practices.</p>
+                    </div>
+                    <div class="bento-item item-2">
+                        <h3>Currently Learning</h3>
+                        <div class="learning-status">
+                            <i class="fa-solid fa-rocket"></i>
+                            <span>Enhancing skills in backend development using PHP & Python, and SQL-based data handling to build scalable web applications.</span>
+                        </div>
+                    </div>
+                    <div class="bento-item item-3">
+                        <h3>Fun Facts</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-mug-hot"></i> Driven by curiosity and problem-solving</li>
+                            <li><i class="fa-solid fa-mountain-sun"></i> Enjoy crafting modern and minimal UI designs</li>
+                            <li><i class="fa-brands fa-internet-explorer"></i>  Always exploring new technologies.</li>
+                        </ul>
+                    </div>
+                    <div class="bento-item item-4">
+                        <h3>My Philosophy</h3>
+                        <p>"I believe simplicity is powerful".</p>
+                        <p>Great digital products are intuitive, efficient, and built with purpose—balancing aesthetics with functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== EXPERIENCE SECTION ============== -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience & Certifications</h2>
+                <div class="timeline">
+                    <!-- Item 1: R&D Intern -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">12/2025 - 01/2026</span>
+                            <h3>Research and Development Intern</h3>
+                            <h4>SayncroTech</h4>
+                            <p>Contributed to research initiatives and development projects, focusing on innovative technical solutions.</p>
+                        </div>
+                    </div>
+                    <!-- Item 2: Full Stack -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">04/2025 - 06/2025</span>
+                            <h3>Full Stack Web Development</h3>
+                            <h4>EduSkills Academy</h4>
+                            <p>Gained hands-on experience in full-stack web development, building responsive and scalable web applications.</p>
+                        </div>
+                    </div>
+                    <!-- Item 3: AI-ML -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">10/2024 - 12/2024</span>
+                            <h3>AI-ML Virtual Internship</h3>
+                            <h4>Google for Developers & AICTE</h4>
+                            <p>Completed a virtual internship focused on Artificial Intelligence and Machine Learning fundamentals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== PROJECTS GALLERY ============== -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=400&auto=format&fit=crop" alt="TechExper Nexgen" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Outdated corporate identity. <strong>Solution:</strong> Complete redesign focusing on modern UI and responsiveness.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Website redesign for TechExper Nexgen</h3>
+                            <div class="project-tags">
+                                <span>UI/UX</span><span>Redesign</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?q=80&w=400&auto=format&fit=crop" alt="Astrology Website" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Lack of online presence. <strong>Solution:</strong> Developed a platform for astrological consultations and content.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Website development for Astrology</h3>
+                            <div class="project-tags">
+                                <span>Web Dev</span><span>Services</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=400&auto=format&fit=crop" alt="Portfolio Website" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Need to showcase skills. <strong>Solution:</strong> Built a personal portfolio to display projects and experience.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio website</h3>
+                            <div class="project-tags">
+                                <span>Personal</span><span>Showcase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=400&auto=format&fit=crop" alt="Mental Health Support" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Accessibility to resources. <strong>Solution:</strong> Created a supportive platform connecting users with mental health resources.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Mental Health Support Website</h3>
+                            <div class="project-tags">
+                                <span>Healthcare</span><span>Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1628088062854-d1870b4553da?q=80&w=400&auto=format&fit=crop" alt="Dairy Products" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Local sales limitation. <strong>Solution:</strong> E-commerce platform for selling dairy products online.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Dairy Products selling website</h3>
+                            <div class="project-tags">
+                                <span>E-commerce</span><span>Sales</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=400&auto=format&fit=crop" alt="Virtual Herbal Garden" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Educational resource gap. <strong>Solution:</strong> Interactive virtual garden to learn about herbal plants.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Virtual herbal garden</h3>
+                            <div class="project-tags">
+                                <span>Education</span><span>Interactive</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 7 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=400&auto=format&fit=crop" alt="Expenditure Tracker" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Managing personal finances. <strong>Solution:</strong> Tool to track daily expenses and visualize spending habits.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Expenditure Tracker</h3>
+                            <div class="project-tags">
+                                <span>Finance</span><span>Utility</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 8 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?q=80&w=400&auto=format&fit=crop" alt="MCQ Test" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Manual testing is tedious. <strong>Solution:</strong> Online MCQ platform for automated testing and scoring.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>MCQ test</h3>
+                            <div class="project-tags">
+                                <span>Education</span><span>Quiz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 9 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop" alt="Redar System" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Object detection needs. <strong>Solution:</strong> Implemented a system interface for detection and monitoring.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Redar System</h3>
+                            <div class="project-tags">
+                                <span>System</span><span>Detection</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 10 -->
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=400&auto=format&fit=crop" alt="Water Level Detection" class="project-image">
+                        <div class="project-hover-content">
+                            <h4>Problem & Solution</h4>
+                            <p><strong>Problem:</strong> Water wastage/overflow. <strong>Solution:</strong> IoT-based system to monitor and alert water levels.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" class="magnetic-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Water Level Detection</h3>
+                            <div class="project-tags">
+                                <span>IoT</span><span>Hardware</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== SKILLS MARQUEE ============== -->
+        <section class="skills section">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>HTML</span><span class="separator"></span>
+                    <span>CSS</span><span class="separator"></span>
+                    <span>JavaScript</span><span class="separator"></span>
+                    <span>Python</span><span class="separator"></span>
+                    <span>PHP</span><span class="separator"></span>
+                    <span>SQL</span><span class="separator"></span>
+                    <span>Java</span><span class="separator"></span>
+                    
+                    <!-- Duplicate for seamless loop -->
+                    <span>HTML</span><span class="separator"></span>
+                    <span>CSS</span><span class="separator"></span>
+                    <span>JavaScript</span><span class="separator"></span>
+                    <span>Python</span><span class="separator"></span>
+                    <span>PHP</span><span class="separator"></span>
+                    <span>SQL</span><span class="separator"></span>
+                    <span>Java</span><span class="separator"></span>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============== CONTACT SECTION ============== -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p>Have a project in mind or just want to say hi? My inbox is always open. I'll get back to you as soon as possible.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link magnetic-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link magnetic-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="social-link magnetic-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form action="https://formspree.io/f/mreebady" method="POST" class="contact-form">
+                        <!-- Honeypot field to prevent spam -->
+                        <input type="text" name="_gotcha" style="display:none">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary magnetic-link">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============== FOOTER ============== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Suraj Thorat. Designed & Coded with <i class="fa-solid fa-heart"></i>.</p>
+        </div>
+    </footer>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
