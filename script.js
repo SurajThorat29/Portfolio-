@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     gsap.registerPlugin(TextPlugin);
     const typingText = document.querySelector('.typing-text');
     if (typingText) {
-        const words = ["Modern Web Apps.", "Digital Experiences.", "Backend Systems."];
+        const words = ["Modern Website.", "Digital Experiences.", "UI/UX Design."];
         
         // Calculate max width to prevent layout shift
         let maxWidth = 0;
@@ -101,5 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (inner) inner.style.animationPlayState = 'running';
         });
     });
+
 
 });
